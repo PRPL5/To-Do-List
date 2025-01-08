@@ -1,0 +1,164 @@
+body , html{
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    }
+    
+    .view{
+        display: grid;
+        grid-template-areas: 
+        "h h h h h h h"
+        "s m m m m m m"
+        "s m m m m m m"
+
+      
+        
+        ;
+    }
+    
+    
+    
+    .header{
+        color:white;
+        text-align: left;
+        padding: 16px;
+        grid-area: h;
+        border:1px solid black;
+        width: 100%;
+        background-color: rgb(22, 22, 22) ;
+    }
+
+    
+
+    .orange{
+        color: rgb(255, 123, 0);
+
+    }
+    .sidebar{
+        background-color: rgba(211, 211, 211, 0.849);
+        grid-area: s;
+        border-right:1px solid black;
+        height: 84vh;
+        padding: 15px;
+    
+    }
+    
+    .main{
+
+        display: flex;
+        grid-area: m;
+        padding: 20px;
+        flex-direction: row;
+
+    
+    }
+    
+    form{
+    
+        display: flex;
+        flex-direction: column;
+        min-width: 250px;
+        gap:10px;
+        position: static;
+    } 
+    input{
+        width: 200px;
+    }
+    
+    #desc{
+        width: 200px;
+        height: 100px;
+    }
+    select{
+        width: 100px;
+    }
+    
+    #addBtn{
+        width: 200px;
+        height: 50px;
+    }
+
+
+.todo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    padding: 16px; 
+    margin: 16px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    width: 60vw;
+    height: 50px;
+
+}
+
+.card-title{
+    margin: 0 0 px;
+}
+
+.card-desc , .card-date , .card-priority {
+     margin: 8px;
+     word-wrap: break-word;
+    
+    
+}
+
+.card-button {
+     background-color: red;
+     color: white;
+      border: none;
+      /* padding: 5px 10px;  */
+      text-align: center; 
+      display: inline-block; 
+      font-size: 12px; 
+      margin: 0 0 0; 
+      cursor: pointer; 
+      border-radius: 4px; 
+     
+    } 
+      
+      
+      .card-button:hover { 
+            background-color:grey;
+        }
+
+
+
+            .project > a{
+                font-family:Arial, Helvetica, sans-serif;
+                font-weight: lighter;
+                margin-left: 15px;
+                text-decoration: none !important;
+                color: black   ;
+
+            }
+
+.newTodo{
+    padding: 0;
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    border: solid black ;
+    border-radius:100px ;
+    display: flex;
+    position: absolute;
+    bottom:5px;
+    margin-left:20% ;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 123, 0);
+    color:rgb(255, 255, 255);
+
+}
+
+
+
+
+
+
+
+

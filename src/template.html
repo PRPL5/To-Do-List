@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Document</title>
+</head>
+<body>
+    <section class="view">
+        <div class="header">
+            <h1 class="top">TO <span class="orange">DO</span> LIST </h1>
+        </div>
+
+
+        <div class="sidebar">
+            <h1>To Do Lists</h1>
+            <select id="folderSelect"> 
+                <option value="default">Default</option>
+                
+            </select> 
+            <button id="deleteFolderBtn">Delete Folder</button> 
+            <button id="addFolderBtn">Add Folder</button>
+        
+        </div>
+
+
+        <div class="main">
+            
+
+            <form> <input type="text" id="title" placeholder="Title"> 
+                <input type="text" id="desc" placeholder="Description">
+                 <input type="date" id="date"> 
+                 <select id="options"> 
+                    <option value="Low">Low</option> 
+                    <option value="Medium">Medium</option> 
+                    <option value="High">High</option>
+                 </select> 
+                
+                 <button id="addBtn">Add To-Do</button> </form>
+         
+            
+        
+            
+            
+            <div id="todos">
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>
